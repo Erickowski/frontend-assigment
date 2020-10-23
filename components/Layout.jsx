@@ -2,6 +2,8 @@ import React from "react";
 import { Global, css } from "@emotion/core";
 import Head from "next/head";
 
+import Header from "./Header";
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -38,6 +40,7 @@ const Layout = ({ children }) => {
           rel="stylesheet"
         />
       </Head>
+      <Header />
       <main>{children}</main>
     </>
   );
