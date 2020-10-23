@@ -15,6 +15,7 @@ const Layout = ({ children }) => {
             --green: #65b32e;
             --white: #edebeb;
             --black: #010101;
+            --font: "Roboto", sans-serif;
           }
           html {
             box-sizing: border-box;
@@ -23,6 +24,10 @@ const Layout = ({ children }) => {
           *:before,
           *:after {
             box-sizing: inherit;
+          }
+          body {
+            margin: 0;
+            background-color: var(--white);
           }
         `}
       />
