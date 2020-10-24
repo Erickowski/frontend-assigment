@@ -28,7 +28,7 @@ const Sidebar = () => {
         <hr />
       </div>
       <div className="notices__container">
-        {[1, 2, 3, 4].map((notice) => {
+        {[1, 2, 3, 4, 5].map((notice) => {
           return <Notice key={notice} number={notice} />;
         })}
       </div>

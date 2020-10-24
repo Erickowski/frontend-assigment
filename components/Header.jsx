@@ -82,6 +82,7 @@ const HeaderContainer = styled.header`
       margin-right: 30px;
       i {
         position: relative;
+        cursor: pointer;
         span {
           font-size: 12px;
           padding: 2px 5px;

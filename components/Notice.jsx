@@ -6,9 +6,9 @@ const NoticeContainer = styled.div`
   justify-content: space-between;
   padding: 20px;
   background-color: white;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   border-radius: ${(props) => props.number === 1 && "10px 10px 0 0"};
-  border-radius: ${(props) => props.number === 4 && "0 0 10px 10px"};
+  border-radius: ${(props) => props.number === 5 && "0 0 10px 10px"};
   .notice__container {
     &--image {
       position: relative;
