@@ -1,38 +1,26 @@
-# DocRed Frontend test
+# 💻 DocRed Prueba técnica
 
-Este es un simple test para determinar tus conocimientos y habilidades de Frontend.
+Prueba tecnica.
 
-## Como empezamos?
+## 🛠 Scripts
 
-Haz un fork de este repositorio para trabajar en él.
-Una vez completada la tarea, envíanos la URL de tu repositorio a nuestro email.
+```bash
+# Instalar dependencias
+$ npm install
 
-## Consignas
+# Encender servidor de desarrollo en localhost:3000
+$ npm run dev
 
-Antes que nada, lee bien las consignas. Este test debe reflejar no sólo tus conocimientos en technología, pero también tu forma de trabajar.
-Haz commit de tus cambios regularmente, esto también refleja cómo trabajas.
+# Crear version de producción
+$ npm run export
 
-En total no debería tomarte mas de 1 día, pero usa tu tiempo sabiamente.
+```
 
-## Que debes hacer?
+## 💎 Tecnologías
 
-Intenta reproducir el mock-up que encuentras en `mockup/DocRed-mockup.png` lo más cercano posible.
-Presta atención a los detalles.
+- NextJS
+- Styled Components
 
-El trabajo final debe mostrar un artículo como en el mock-up. Esperamos que los botones sean botones y los links sean links aunque estos no lleven a ningún lado.
+## 💣 Despliegue
 
-El contenido del artículo debe ser cargado desde el archivo `mockup/article.json` dinámicamente.
-
-Se debe agregar al final de este README las instrucciones sobre cómo correr el proyecto.
-
-## Tecnologías que debes usar
-
-- ReactJS (Con Hooks preferentemente)
-- SASS (o styled-components preferentemente)
-
-## Puntos extras:
-
-- NextJS y Typescript.
-- Unit testing.
-- Linting y Prettier
-- Docker
+https://elegant-thompson-5291ba.netlify.app/
