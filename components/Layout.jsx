@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
         />
       </Head>
       <Header />
-      <main>{children}</main>
+      {children}
       <Footer />
     </>
   );
